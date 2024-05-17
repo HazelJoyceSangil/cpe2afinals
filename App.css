@@ -1,0 +1,48 @@
+.App {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.CalcContainer {
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: lightpink; 
+}
+
+.CalcDisplay {
+  border: 1px solid black; 
+  margin-bottom: 20px;
+  padding: 5px;
+  height: 50px;
+  font-size: 2em;
+  text-align: right;
+  background-color: lightpink; 
+  color: black; 
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.ButtonContainer {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.ButtonContainer > button {
+  justify-content: center;
+  border: 1px solid black; 
+  padding: 7px;
+  color: black; 
+  font-size: 2em;
+  background-color: lightpink; 
+  border-radius: 10px;
+  transition: background 0.2s ease; 
+}
+
+.ButtonContainer > button:hover {
+  background-color: black; 
+  color: lightpink; 
+  cursor: pointer;
+}
